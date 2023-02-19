@@ -16,7 +16,11 @@ module.exports = {
       LightSalmon: "#FB9D7E",
       NavajoWhite: "#F8CD9E",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        topBanner: "url('/src/assets/images/vaping-device-e-cigarette.jpg')",
+      },
+    },
   },
   plugins: [],
 };
