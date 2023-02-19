@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import TopBanner from "./TopBanner";
 
 const Home = () => {
-    return (
-        <div>
-            <h1 className="text-4xl">this is home</h1>
-        </div>
-    );
+  return (
+    <>
+      <TopBanner />
+    </>
+  );
 };
 
 export default Home;
