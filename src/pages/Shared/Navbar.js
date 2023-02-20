@@ -1,33 +1,62 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../assets/images/electronic-cigarette.png'
-import { FiShoppingCart } from "react-icons/fi";
+import React, { useState } from "react";
+import { FiMenu, FiShoppingCart } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import logo from "../../assets/images/electronic-cigarette.png";
+// drawer
+import Drawer from "react-modern-drawer";
+import "react-modern-drawer/dist/index.css";
 
 const Navbar = () => {
-    return (
-      <>
-        <section className="px-5 bg-MidnightBlue py-4 flex items-center justify-between">
-          {/* logo */}
-          <div className="flex gap-3">
-            <img className="w-14" src={logo} alt="" />
-            <div className="border border-LightCoral"></div>
-            <div className="tracking-widest uppercase text-LightCoral">
-              <h3 className="text-3xl font-semibold">Vaporous Vape</h3>
-              <h5 className="font-medium">E-cigarette</h5>
-            </div>
-          </div>
 
-          <div className="text-gray-200 text-lg flex items-center gap-5">
-            <Link>Register</Link>
-            <Link>Login</Link>
-            <div className='flex items-center gap-1'>
-              <FiShoppingCart className="text-2xl" />
-              <p className='bg-gray-200 px-1 font-medium rounded-full text-LightCoral'>0</p>
-            </div>
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState);
+  };
+
+  return (
+    <>
+      <section className="px-5 bg-MidnightBlue py-4 flex items-center justify-between">
+        {/* logo */}
+        <div className="flex gap-3">
+          <img className="lg:w-14 w-12" src={logo} alt="" />
+          <div className="border border-LightCoral"></div>
+          <div className="tracking-widest uppercase text-LightCoral">
+            <h3 className="lg:text-3xl md:text-2xl text-lg font-semibold">
+              Vaporous Vape
+            </h3>
+            <h5 className="text-xs md:text-sm font-medium">E-cigarette</h5>
           </div>
-        </section>
-      </>
-    );
+        </div>
+
+        <div className="text-gray-200 text-lg md:flex items-center gap-3 hidden">
+          <Link>Register</Link>
+          <Link>Login</Link>
+          <div className="flex items-center gap-1">
+            <FiShoppingCart className="text-2xl" />
+            <p className="bg-gray-200 px-1 font-medium rounded-full text-LightCoral">
+              0
+            </p>
+          </div>
+        </div>
+
+        <div
+          onClick={toggleDrawer}
+          className="md:hidden inline-block border border-MediumPurple p-1"
+        >
+          <FiMenu className="text-2xl text-gray-200" />
+          <Drawer
+                open={isOpen}
+                onClose={toggleDrawer}
+                direction='right'
+                size='50%'
+                className='bla bla bla'
+            >
+                <div className="h-full w-full bg-MidnightBlue/80">Hello World</div>
+            </Drawer>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Navbar;
