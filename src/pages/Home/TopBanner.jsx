@@ -24,7 +24,7 @@ const TopBanner = () => {
             id=""
             placeholder="your email"
           />
-          <button className="bg-LightSalmon px-5 py-3 md:w-1/2 w-full md:text-xl uppercase font-semibold text-MidnightBlue rounded-lg">
+          <button className="px-5 py-3 md:w-1/2 w-full md:text-xl uppercase font-semibold text-MidnightBlue rounded-lg btn-grad">
             Sign up now to get an instant discount
           </button>
         </div>
