@@ -6,10 +6,10 @@ const ItemCategories = () => {
     return (
       <section className="px-5 py-16 bg-NavajoWhite/30">
         <h1 className="text-4xl font-semibold text-LightCoral uppercase text-center">
-          Vape
+          Categories
         </h1>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
-          <div className="border-2 border-MediumPurple rounded-lg bg-MediumPurple/90">
+          <div className="border-2 border-MediumPurple rounded-lg bg-MediumPurple/80">
             <img className="w-full rounded-t-lg" src={vapes} alt="" />
             <div className="my-5 pl-5">
               <p className="text-xl font-medium text-gray-100 mb-2">
@@ -20,7 +20,7 @@ const ItemCategories = () => {
               </button>
             </div>
           </div>
-          <div className="border-2 border-MediumPurple rounded-lg bg-MediumPurple/90">
+          <div className="border-2 border-MediumPurple rounded-lg bg-MediumPurple/80">
             <img className="w-full rounded-t-lg" src={liquid} alt="" />
             <div className="my-5 pl-5">
               <p className="text-xl font-medium text-gray-100 mb-2">

@@ -10,6 +10,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
+      slate: colors.slate,
       MidnightBlue: "#35284A",
       MediumPurple: "#816F90",
       LightCoral: "#FB7D79",
