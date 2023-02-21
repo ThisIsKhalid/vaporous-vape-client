@@ -63,7 +63,7 @@ const Navbar = () => {
 
         <div
           onClick={toggleDrawer}
-          className="md:hidden inline-block border border-MediumPurple p-1"
+          className="md:hidden inline-block"
         >
           <FiMenu className="text-2xl text-gray-200" />
           <Drawer

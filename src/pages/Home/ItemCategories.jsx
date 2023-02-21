@@ -8,7 +8,7 @@ const ItemCategories = () => {
         <h1 className="text-4xl font-semibold text-LightCoral uppercase text-center">
           Vape
         </h1>
-        <div className="grid grid-cols-2 gap-5 mt-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
           <div className="border-2 border-MediumPurple rounded-lg bg-MediumPurple/90">
             <img className="w-full rounded-t-lg" src={vapes} alt="" />
             <div className="my-5 pl-5">
