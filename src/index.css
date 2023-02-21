@@ -22,9 +22,9 @@ body {
 .btn-grad {
   background-image: linear-gradient(
     to right,
-    #FB9D7E 0%,
+    #fb9d7e 0%,
     #f5c899 51%,
-    #FB9D7E 100%
+    #fb9d7e 100%
   );
   text-transform: uppercase;
   transition: 0.5s;
@@ -36,3 +36,22 @@ body {
   /* color: #fff; */
   text-decoration: none;
 }
+
+.btn-grad1 {
+  background-image: linear-gradient(
+    to right,
+    #ec6f66 0%,
+    #f3a183 51%,
+    #ec6f66 100%
+  );
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}
+
+
