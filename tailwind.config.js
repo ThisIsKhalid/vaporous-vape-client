@@ -21,6 +21,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         topBanner: "url('/src/assets/images/vaping-device-e-cigarette.jpg')",
+        populerCat1: "url('/src/assets/images/ageis-max-01.jpg')",
+        populerCat2: "url('/src/assets/images/PnP-POD-TANK-1.png')",
+        populerCat3:
+          "url('/src/assets/images/stylish-young-girl-in-a-city-with-vape-YYNXH69.jpg')",
       },
     },
   },
