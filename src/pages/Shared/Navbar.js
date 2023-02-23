@@ -28,7 +28,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="text-gray-200 text-lg md:flex items-center gap-3 hidden">
+        <div className="text-gray-200 text-base md:flex items-center gap-3 hidden">
+          <Link>Home</Link>
+          <Link>Blogs</Link>
           <Link>Register</Link>
           <Link>Login</Link>
 
