@@ -38,20 +38,19 @@ const CustomerReviews = () => {
         >
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -62,20 +61,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -86,20 +84,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -110,20 +107,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -134,20 +130,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -158,20 +153,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -182,20 +176,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -206,20 +199,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -230,20 +222,19 @@ const CustomerReviews = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col shadow-lg">
-              <div className="relative  px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
+              <div className="relative  px-4 py-2 pb-7 rounded-t-lg sm:px-8 md:px-12 bg-gray-200">
                 <p className="px-6 py-1 text-lg italic text-center text-gray-800">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  Voluptatibus quibusdam, eligendi exercitationem molestias.
                 </p>
-                <TfiQuoteLeft className="absolute top-10 left-5 text-4xl" />
-                <TfiQuoteRight className="absolute bottom-10 right-5 text-4xl" />
+                <TfiQuoteLeft className="absolute top-1 left-5 text-4xl" />
+                <TfiQuoteRight className="absolute bottom-1 right-5 text-4xl" />
               </div>
-              <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
+              <div className="flex flex-col items-center justify-center p-5 rounded-b-lg bg-NavajoWhite text-MidnightBlue">
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 z-50"
+                  className="w-16 h-16 mb-2 -mt-14 bg-center bg-cover rounded-full bg-gray-500 z-50"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
