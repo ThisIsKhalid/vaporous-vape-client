@@ -1,16 +1,32 @@
 import React from 'react';
 import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { Link, useLocation } from 'react-router-dom';
 import logo from "../../assets/images/electronic-cigarette.png";
 
 const Footer = () => {
   const year = new Date();
+
+  // footer bg change
+  const { pathname } = useLocation();
+  let backgroundColor;
+  if(pathname === '/home' || pathname === '/' || pathname === '/blogs'){
+    backgroundColor = "bg-NavajoWhite/70";
+  }
+  else {
+    backgroundColor = 'bg-white'
+  }
+  
     return (
       <>
-        <footer className="relative w-full">
-          <svg className='hidden md:block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <footer className={backgroundColor}>
+          <svg
+            className="hidden md:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
             <path
               fill="#35284A"
-              fill-opacity="1"
+              fillOpacity="1"
               d="M0,128L40,138.7C80,149,160,171,240,160C320,149,400,107,480,112C560,117,640,171,720,186.7C800,203,880,181,960,154.7C1040,128,1120,96,1200,80C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
             ></path>
           </svg>
@@ -35,24 +51,29 @@ const Footer = () => {
                   <h3 className="uppercase text-LightCoral">Main Links</h3>
                   <ul className="space-y-1">
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/blogs'>
+                        Blogs
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to='/about'>
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Register
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Login
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -62,24 +83,24 @@ const Footer = () => {
                   </h3>
                   <ul className="space-y-1">
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Vape Device
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         E-liquids & Salt
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Pricing
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         FAQ
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -89,14 +110,14 @@ const Footer = () => {
                   </h3>
                   <ul className="space-y-1">
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Privacy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a rel="noopener noreferrer" href="#">
+                      <Link to='/home'>
                         Terms of Service
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

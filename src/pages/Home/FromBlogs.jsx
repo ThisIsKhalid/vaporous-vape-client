@@ -21,13 +21,13 @@ const blogs = [
     id: "3",
     title: "How-Do-You-Charge-ELF-BAR-Disposable-Vapes",
     img: img3,
-    des: "ELF BAR is a brand that offers a range of disposable vape devices. With its popularity, it’s common for users to ask about the charging process for their ELF BAR vapes. In this article, we’ll go over everything you need to know about charging your ELF BAR, including how long it takes and the best practices for charging and using your device.",
+    des: "ELF BAR is a brand that offers a range of disposable vape devices. With its popularity, it's common for users to ask about the charging process for their ELF BAR vapes. In this article, we'll go over everything you need to know about charging your ELF BAR, including how long it takes and the best practices for charging and using your device.",
   },
 ];
 
 const FromBlogs = () => {
   return (
-    <div className="px-5 py-16 bg-NavajoWhite/70">
+    <div className="px-5 pt-16 bg-NavajoWhite/70">
       <h1 className="text-4xl font-semibold text-LightCoral uppercase text-center">
         From Our Blogs
       </h1>

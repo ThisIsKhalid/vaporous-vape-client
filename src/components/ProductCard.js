@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHeart, FaStar, FaStarHalf } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductCard = () => {
   return (
@@ -10,9 +11,11 @@ const ProductCard = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
           quidem sequi illum facere...
         </p>
-        <button className="px-2 py-1 text-xs font-semibold text-gray-100 hover:text-MidnightBlue uppercase transition-colors duration-300 transform rounded-lg border border-gray-100 hover:bg-gray-100 mt-2">
-          See More
-        </button>
+        <Link to='/product-details'>
+          <button className="px-2 py-1 text-xs font-semibold text-gray-100 hover:text-MidnightBlue uppercase transition-colors duration-300 transform rounded-lg border border-gray-100 hover:bg-gray-100 mt-2">
+            See More
+          </button>
+        </Link>
       </div>
 
       <div className="relative">

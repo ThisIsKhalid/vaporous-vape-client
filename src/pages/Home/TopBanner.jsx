@@ -3,7 +3,7 @@ import React from "react";
 
 const TopBanner = () => {
   return (
-    <section className="h-[100vh] bg-topBanner bg-cover bg-center bg-no-repeat bg-blend-overlay relative">
+    <section className="h-[100vh] min-h-[550px] bg-topBanner bg-cover bg-center bg-no-repeat bg-blend-overlay relative">
       <div className="bg-MidnightBlue/70 absolute h-full w-full"></div>
       <div className="h-full w-full flex flex-col items-center justify-center gap-20">
         <div className="z-50 text-LightCoral px-5 text-center">
